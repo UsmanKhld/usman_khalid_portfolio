@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  margin-left: 4rem; /* 64px to match the non-expanded sidebar width */
+  padding: 2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
