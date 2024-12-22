@@ -1,7 +1,13 @@
 import React from "react";
+import Navbar from "../../Components/Navbar/Navbar";
 
 const Exp = () => {
-  return <div>Exp</div>;
+  return (
+    <div>
+      <Navbar />
+      <main>Experience</main>
+    </div>
+  );
 };
 
 export default Exp;
