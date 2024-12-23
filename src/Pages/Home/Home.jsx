@@ -5,7 +5,9 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <main>Home</main>
+      <main>
+        <div className="w-full h-screen border border-white"></div>
+      </main>
     </div>
   );
 };
