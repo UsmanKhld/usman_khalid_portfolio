@@ -7,6 +7,9 @@ import {
   Navigate,
 } from "react-router-dom";
 import { Home, Exp, Projects, About } from "./Pages/index.js";
+import "@fontsource/josefin-sans/200.css"; // Light
+import "@fontsource/josefin-sans/400.css"; // Regular weight
+import "@fontsource/josefin-sans/700.css"; // Bold weight
 
 function App() {
   return (
